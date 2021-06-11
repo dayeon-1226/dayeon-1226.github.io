@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <head>
+            <link rel = "stylesheet" href = "style.css">
+            <title>5.3: Microprocessor-controlled devices in the home</title>
+        </head>
+        <style>
+            *{
+                box-sizing: border-box; 
+            }
+
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 5px; 
+            }
+
+            .row::after {
+                content: "";
+                display: table;
+                clear: both; 
+            }
+
+            .column-2 {
+                float: left;
+                width: 25%;
+                padding: 5px; 
+            }
+
+            .row-2::after {
+                content: "";
+                display: table;
+                clear: both; 
+            }
+
+            .column-3 {
+                float: left;
+                width: 50%;
+                padding: 5px; 
+            }
+
+            .row-3::after {
+                content: "";
+                display: table;
+                clear: both; 
+            }
+
+            .parallax {
+            background: rgb(246,227,203);
+            background: linear-gradient(90deg, rgba(246,227,203,1) 0%, rgba(255,205,166,0.8963293935738358) 24%, rgba(221,227,182,1) 100%);
+            padding: 5px;
+            min-height: 500px; 
+            background-attachment: fixed;
+            background-position: center; 
+            background-repeat:no-repeat; 
+            background-size: cover; 
+            width: 100%;
+        }
+        
+        .container {
+        position: relative;
+        text-align: center;
+        color: white;
+        }
+
+        .centered:hover {
+            background-color: #FFBA91;
+        }
+
+        .centered {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: lightsalmon;
+        }
+
+        .centered-2 {
+        position: absolute;
+        top: 98%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(248, 164, 164);
+        }
+
+        .parallax-2 {
+            background: rgb(246,230,203);
+            background: linear-gradient(90deg, rgba(246,230,203,1) 0%, rgba(255,233,216,1) 68%, rgba(251,238,205,0.8963293935738358) 100%, rgba(221,227,182,1) 100%);
+            padding: 10px;
+            min-height: 600px; 
+            background-attachment: fixed;
+            background-position: center; 
+            background-repeat:no-repeat; 
+            background-size: cover; 
+            width: 100%;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: #5E604F;
+            position: relative; 
+            bottom: -50px; 
+            left: 130px; 
+            padding: 10px;
+            margin-bottom: 50px;
+            }
+
+            .next {
+            background-color: #FFBA91;
+            color: white;
+            position: relative; 
+            bottom: -50px; 
+            left: 870px; 
+            padding: 10px;
+            margin-bottom: 50px;
+            }
+
+        </style>
+    </header>
+    <main>
+        <body class = "content">
+            <h1 class="top-content">5.3: Microprocessor-controlled devices in the home </h1>
+            <div class="topnav" id="myTopnav">
+                <a href="homepage.html" class="active">Home</a>
+                <a href="aboutpage.html">About</a>
+                <div class="dropdown">
+                <button class="dropbtn">Contents
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="5.1.html">5.1: The Effects of ICT on employment</a>
+                    <a href="5.2.html">5.2: The effects of ICT on working patterns</a>
+                    <a href="5.3.html">5.3: Microprocessor-controlled devices in the home</a>
+                    <a href="5.4.html">5.4: Potential Health Problems</a>
+                </div>
+                </div>
+            </div>
+          </div>
+            <hr class="divide">
+            <div class="parallax">
+            <h2>Labour saving devices</h2>
+            <h3>Examples</h3>
+            <div class="row">
+                <div class="column">
+                    <div class="container">
+                        <img src = "images/mp-1.jpg" alt="washingmachine" width = "100%" class="image">
+                        <div class="centered">Automatic Washing Machine</div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="container">
+                        <img src = "images/mp-2.jpg" alt="oven" width = "100%" class="image">
+                        <div class="centered">Microwave Oven</div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="container">
+                        <img src = "images/mp-3.jpg" alt="cooker" width = "100%" class="image">
+                        <div class="centered">Cooker</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-2">
+                <div class="column-2">
+                    <div class="container">
+                        <img src = "images/mp-4.jpg" alt="cooker" width = "100%" class="image">
+                        <div class="centered">Automatic Dishwasher</div>
+                    </div>                
+                </div>
+
+                <div class="column-2">
+                    <div class="container">
+                        <img src = "images/mp-5.jpg" alt="cooker" width = "100%" class="image">
+                        <div class="centered">Robot Vacuum Cleaner</div>
+                    </div>                
+                </div>
+
+                <div class="column-2">
+                    <div class="container">
+                        <img src = "images/mp-6.jpg" alt="cooker" width = "100%" class="image">
+                        <div class="centered">Bread-making Machine</div>
+                    </div>                
+                </div>
+
+                <div class="column-2">
+                    <div class="container">
+                        <img src = "images/mp-7.jpg" alt="cooker" width = "100%" class="image">
+                        <div class="centered">Smart Fridge and Freezer</div>
+                    </div>                
+                </div>
+            </div>
+            <hr>
+            <h3 style = "text-align: center; background-color: lightsalmon; padding: 5px;">Pros and cons</h3>
+            <table class = "table" style = "margin-left: auto; margin-right: auto">
+                <thread>
+                    <tr>
+                        <th class="td-hd">Pros</th>
+                        <th class="td-hd">Cons</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>No longer have to do manual tasks at home</li>
+                                <li>No need to stay home to wait until the food is done or the clothes are washed</li>
+                                <li>More leisure time for hobbies and socialising</li>
+                                <li>Give a sense of security (Automated burglar alarms)</li>
+                                <li>Healthier lifestyles (Smart fridges and freezer)</li>
+                                <li>Preventing food waste (Smart fridges and freezer)</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Unhealthy lifestyles due to reliance on the devices</li>
+                                <li>Make people lazy</li>
+                                <li>Can become less fit</li>
+                                <li>Potential to lose household skills</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class = "parallax-2">
+            <h2>Other types of Microprocessor-controlled devices at home</h2>
+            <h3>Examples</h3>
+            <div class="row-3">
+                <div class="column-3">
+                    <div class="container">
+                        <img src = "images/mp-8.jpeg" alt="alarm clock" width = "100%" class="image">
+                        <div class="centered-2">Alarm Clock</div>
+                    </div>
+                </div>
+
+                <div class="column-3">
+                    <div class="container">
+                        <img src = "images/mp-9.jpg" alt="TV sets" width = "100%" class="image">
+                        <div class="centered-2">TV sets</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-3">
+                <div class="column-3">
+                    <div class="container">
+                        <img src = "images/mp-10.jpg" alt="Central Heating and Cooling System" width = "100%" class="image">
+                        <div class="centered-2">Central Heating and Air Conditioning System</div>
+                    </div>                
+                </div>
+
+                <div class="column-3">
+                    <div class="container">
+                        <img src = "images/mp-11.jpg" alt="Home Entertainment System" width = "100%" class="image">
+                        <div class="centered-2">Home Entertainment System</div>
+                    </div>                
+                </div>
+            </div>
+            <br>
+            <hr>
+            <h3 style = "text-align: center; background-color: rgb(255, 190, 190); padding: 5px;">Pros and cons</h3>
+            <table class = "table" style = "margin-left: auto; margin-right: auto; padding: 10px;">
+                <thread>
+                    <tr>
+                        <th class="td-hd">Pros</th>
+                        <th class="td-hd">Cons</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Save energy since they are efficient </li>
+                                <li>Easy to program the devices to do tasks</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Lead to a more wasteful society</li>
+                                <li>Can be complex to operate for people who are not comfortable with electronic devices</li>
+                                <li>Wasteful of electricity if the devices are left on stand-by</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <a href="5.2.html" class="previous">&laquo; Previous</a>
+        <a href="5.4.html" class="next">Next &raquo;</a>
+        <br style = margin-bottom:10px;>
+        <br>
+        <br>
+        <br>
+        <br>
+        </body>
+    </main>
+</html>
+ 

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <head>
+            <link rel = "stylesheet" href = "style.css">
+            <title>About Page</title>
+        </head> 
+        <style>
+            main {
+                margin-bottom: 0;
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
+            .column {
+            float: left;
+            width: 50%;
+            padding: 0 50px; 
+            margin: 10px 20px;
+            position: relative; 
+            bottom: 480px; 
+            left: 70px; 
+            width: 60%;
+            }
+
+            .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+
+            .row {
+            display: flex;
+            }
+
+            .column {
+            flex: 50%;
+            }
+
+            .contact {
+                background-color: #F1CF90;
+                margin: 0 300px; 
+                text-align: center; 
+                padding: 10px; 
+                float: right; 
+                position: relative; 
+                right: 140px;
+                bottom: 450px;
+            }
+
+            .aboutpage-background {
+            height: 100vh;
+            width: 100%;
+            background-image: url(images/aboutpage-background.png);
+            background-position: center; 
+            background-size: cover; 
+            padding-left: 10%; 
+            padding-right: 10%;
+            padding-top: 10px;
+            box-sizing: border-box;
+            position: relative; 
+            }
+
+            .previous {
+            background-color: #f1f1f1;
+            color: #5E604F;
+            position: relative; 
+            bottom: 350px; 
+            left: 130px; 
+            padding: 10px;
+            }
+
+            .next {
+            background-color: #FFBA91;
+            color: white;
+            position: relative; 
+            bottom: 350px; 
+            left: 870px; 
+            padding: 10px;
+            }
+        </style>
+    </header>
+    <main>
+        <body>
+            <div class = "aboutpage-background">
+                <h1 class="top">About Us</h1>
+                <div class="topnav" id="myTopnav">
+                    <a href="homepage.html" class="active">Home</a>
+                    <a href="aboutpage.html">About</a>
+                    <div class="dropdown">
+                    <button class="dropbtn">Contents
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="5.1.html">5.1: The Effects of ICT on employment</a>
+                        <a href="5.2.html">5.2: The effects of ICT on working patterns</a>
+                        <a href="5.3.html">5.3: Microprocessor-controlled devices in the home</a>
+                        <a href="5.4.html">5.4: Potential Health Problems</a>
+                    </div>
+                    </div>
+                </div>
+              </div>
+                <div class="row">
+                    <div class="column"> 
+                        <h1> About our webpage</h1>
+                        <p>This website is to give notes on IGCSE ICT chapter 5, the effects of using ICT. Consise and detailed notes are provided for each of the four sections of the chapter, along with relevant images and videos that can help on understanding the concept and content.</p>
+                        </div>
+                    <div class="column">
+                        <h1>Our aims</h1>
+                        <p>Our aims are to: 
+                            <un>
+                                <li>Give notes on chapter 5</li>
+                                <li>Reduction in time making notes</li>
+                            </un>
+                        </p>
+                    </div>
+                </div>
+        <h2 class = "contact" style = "position: relative; right: 180px;">Contact Detail </h2>
+            <p class = "contact" style = "left: -60px;">Email address:<a href="mailto:24dayeonnam@lannaist.ac.th" style = "color: #5E604F; text-decoration: underline;"> Dayeon - click here to send an email for questions</a></p>
+            <a href="homepage.html" class="previous">&laquo; Previous</a>
+            <a href="5.1.html" class="next">Next &raquo;</a>
+        </body>
+    </main>
+</html>
+ 
