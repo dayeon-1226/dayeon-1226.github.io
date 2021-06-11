@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html>
+    <header>
+        <head>
+            <link rel = "stylesheet" href = "style.css">
+            <title>Homepage</title>
+        </head>
+        <style> 
+        body {
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        #click {
+            text-align: center; 
+            bottom: 170px; 
+            right: 300px; 
+            position: absolute; 
+            color: #5E604F;
+            resize: none;
+            padding: 35px 45px;
+            font-size: 24px;
+            cursor: pointer;
+            outline: none;
+            background-color:  #F1CF90;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+
+        #click:hover {
+            background-color: #FFBA91;
+            color: white;
+        }
+
+        .homepage-background {
+        height: 100vh;
+        width: 100%;
+        background-image: url(images/notepad-homepage.jpg);
+        background-position: center; 
+        background-size: cover; 
+        padding-left: 10%; 
+        padding-right: 10%;
+        padding-top: 10px;
+        box-sizing: border-box;
+        position: absolute; 
+        }
+        </style>
+    </header>
+    <main>
+        <body>
+            <div class='homepage-background'>
+                <h1 class="top">IGCSE ICT Chapter 5: <br> The Effects of Using ICT
+                </h1>
+                <div class="topnav" id="myTopnav">
+                    <a href="homepage.html" class="active">Home</a>
+                    <a href="aboutpage.html">About</a>
+                    <div class="dropdown">
+                    <button class="dropbtn">Contents
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="5.1.html">5.1: The Effects of ICT on employment</a>
+                        <a href="5.2.html">5.2: The effects of ICT on working patterns</a>
+                        <a href="5.3.html">5.3s]: Microprocessor-controlled devices in the home</a>
+                        <a href="5.4.html">5.4: Potential Health Problems</a>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            <button><a href = "5.1.html" id = "click" style = "text-decoration: none"><strong>Click here <br>to continue</strong></a></button>
+        </body>
+    </main>
+</html>
