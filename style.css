@@ -56,11 +56,16 @@ table, th, td {
   font-size: 17px;
   }
 
-  /* Add an active class to highlight the current page */
+  /* to highlight the current page */
   .active {
-  background-color: rgb(241, 207, 144);
+  background-color: rgb(247, 209, 138);
   color: white;
   }
+
+  #ac {
+    background-color: rgb(247, 209, 138);
+    color: #5E604F;
+    }
 
   .topnav .icon {
   display: none;
@@ -85,7 +90,7 @@ table, th, td {
   /* Dropdown content */
   .dropdown-content {
   display: none;
-  position: fixed;
+  position: absolute;
   background-color: #FAFAF0;
   background-color: c;
   min-width: 160px;
